@@ -48,7 +48,6 @@ pairs = []
 for rids in R1:
     if rids not in R2:
         continue
-    #pp = (R1[k1]["RNAME"], R2[k1]["RNAME"])
     for p1 in R1[rids]:
         for p2 in R2[rids]:
             if R1[rids][p1] == R2[rids][p2]:continue
